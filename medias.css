@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .res {
+        padding: 1rem;
+    }
+
+    .res h3 {
+        font-size: 1.125rem;
+    }
+
+    .res p {
+        font-size: 0.875rem;
+    }
+
+    .del-task {
+        font-size: 0.875rem;
+    }
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 3rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+.fortask,
+.fordesc {
+    margin-bottom: 1.5rem;
+}
+
+.fortask h3,
+.fordesc h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 0.125rem solid #ccc;
+    border-radius: 0.3125rem;
+    background-color: #f9f9f9;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 0.3125rem rgba(102, 175, 233, 0.5);
+    outline: none;
+}
+
+.submit-data {
+    text-align: center;
+}
+
+button[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.res {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.res h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.res p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.del-task {
+    align-self: flex-end;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgba(188, 8, 8, 0.882);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.del-task:hover {
+    background-color: rgb(228, 20, 20);
+}
